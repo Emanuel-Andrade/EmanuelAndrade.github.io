@@ -162,7 +162,7 @@
 }
 
 /* Mobile */
-@media(max-width:500px){
+@media(max-width:580px){
     #container{
         flex-direction: column;
     }
@@ -182,7 +182,10 @@
     #about-container{
         width: 100%;
         text-align: center;
-        padding: 30%;
+    }
+    #name{
+        font-size: 30px;
+        width: 90%;
     }
     #about-container .description{
         margin: 10px auto;
@@ -194,17 +197,12 @@
         
     }
     .skills-box{
-        display: flex;
+        flex: 1 1 80%;
         max-width: 100%;
         margin-bottom: 40px;
-        text-align: left;
-        margin: o auto;
-    }
-    .skills-title{
-        flex: 1 1 20%;
+        text-align: left
     }
     .skills-box i{
-        flex: 1 1 20%;
         font-size: 60px;
     }
 }
