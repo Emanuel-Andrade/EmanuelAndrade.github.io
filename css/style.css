@@ -91,6 +91,25 @@
     margin-right: 2px;
     max-width: 20px;
 }
+#phone-container{
+    display: flex;
+    justify-content: center;
+}
+#phone-container ion-icon,
+#phone-container a{
+    flex: 1 1 0;
+}
+#phone-container a{
+    color: #FFF;
+    text-decoration: none;
+    max-width: 275px;
+}
+#phone-container ion-icon{
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 2px;
+    max-width: 20px;
+}
     
 
 /* Bio Containers */
